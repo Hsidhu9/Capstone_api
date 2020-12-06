@@ -2,7 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/Shift_Picker
+/.vs/Shift_Picker_Api
 *.suo
 *.user
 _ReSharper.*

@@ -72,7 +72,7 @@ namespace Shift_Picker_Api.Services
         {
             var shifts =  _userContext
                 .ShiftModels
-                .Include(s => s.ShiftDetails.ToList()).ToList();
+                .Include(s => s.ShiftDetails).ToList();
             return shifts;
         }
     }
