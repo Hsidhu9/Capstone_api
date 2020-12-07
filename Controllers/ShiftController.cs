@@ -18,7 +18,10 @@ namespace ShiftPicker.Data.Controller
         {
             _shiftService = ShiftService;
         }
-        // GET: Shift/Details/5
+        /// <summary>
+        /// Get all shifts with shift details
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ActionResult<List<ShiftModel>> Get()
         {
